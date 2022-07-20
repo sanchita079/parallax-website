@@ -1,0 +1,71 @@
+div{
+    display: block;
+}
+
+.img-1, .img-2, .img-3{
+    
+    background-image: url(image-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height : 500px;
+    opacity: 0.70;
+}
+.img-1_text .border{
+    
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    align-items: center;
+    position: static;
+    
+    
+
+}
+.img-1_text{
+    position: relative;
+    top: 50%;
+    margin-top: 185px;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+    
+    
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+section{
+    display: block;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.img-2{
+    background-image: url(image-2.jpg);
+    min-height: 400px;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.img-3{
+    background-image: url(image-3.jpg);
+    min-height: 400px;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+
+}
